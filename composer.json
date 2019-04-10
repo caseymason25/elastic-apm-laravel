@@ -44,7 +44,7 @@
             "caseymason25\\ElasticApmLaravel\\Providers\\ElasticApmServiceProvider"
          ],
          "aliases":{  
-            "caseymason25":"PhilKra\\ElasticApmLaravel\\Facades\\ElasticApm"
+            "caseymason25":"caseymason25\\ElasticApmLaravel\\Facades\\ElasticApm"
          }
       }
    },
