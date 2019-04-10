@@ -10,13 +10,19 @@
    ],
    "description":"A package to integrate Elastic APM into Laravel",
    "license":"MIT",
+   "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/caseymason25/elastic-apm-laravel"
+    }
+  ],
    "require":{  
       "php":">= 7.0",
       "illuminate/database":"5.5.x|5.6.x|5.7.x|5.8.x",
       "illuminate/http":"5.5.x|5.6.x|5.7.x|5.8.x",
       "illuminate/routing":"5.5.x|5.6.x|5.7.x|5.8.x",
       "illuminate/support":"5.5.x|5.6.x|5.7.x|5.8.x",
-      "philkra/elastic-apm-php-agent":">=6.5.3",
+      "caseymason25/elastic-apm-php-agent":"6.7.x.x-dev",
       "ramsey/uuid":"^3.0"
    },
    "require-dev":{  
