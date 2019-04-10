@@ -1,5 +1,5 @@
 {
-   "name":"philkra/elastic-apm-laravel",
+   "name":"caseymason25/elastic-apm-laravel",
    "keywords":[  
       "laravel",
       "elastic",
@@ -24,21 +24,21 @@
    },
    "autoload":{  
       "psr-4":{  
-         "PhilKra\\ElasticApmLaravel\\":"src/"
+         "caseymason25\\ElasticApmLaravel\\":"src/"
       }
    },
    "autoload-dev":{  
       "psr-4":{  
-         "PhilKra\\Tests\\":"tests/"
+         "caseymason25\\Tests\\":"tests/"
       }
    },
    "extra":{  
       "laravel":{  
          "providers":[  
-            "PhilKra\\ElasticApmLaravel\\Providers\\ElasticApmServiceProvider"
+            "caseymason25\\ElasticApmLaravel\\Providers\\ElasticApmServiceProvider"
          ],
          "aliases":{  
-            "ElasticApm":"PhilKra\\ElasticApmLaravel\\Facades\\ElasticApm"
+            "caseymason25":"PhilKra\\ElasticApmLaravel\\Facades\\ElasticApm"
          }
       }
    },
