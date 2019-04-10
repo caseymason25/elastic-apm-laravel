@@ -13,7 +13,7 @@
    "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/caseymason25/elastic-apm-laravel"
+      "url": "https://github.com/caseymason25/elastic-apm-php-agent"
     }
   ],
    "require":{  
